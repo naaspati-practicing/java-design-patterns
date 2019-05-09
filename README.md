@@ -1,1 +1,1 @@
-## practicing https://github.com/iluwatar/java-design-patterns
+## forked https://github.com/iluwatar/java-design-patterns

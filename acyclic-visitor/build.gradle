@@ -1,0 +1,8 @@
+plugins {
+    id 'jacoco'
+    id 'java'
+    id 'application'
+}
+
+
+apply from: '../build.gradle'

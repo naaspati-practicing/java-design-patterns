@@ -26,7 +26,6 @@ dependencies {
   testImplementation 'org.junit.jupiter:junit-jupiter-params:'+JUNIT_VERSION
   testRuntime 'org.junit.jupiter:junit-jupiter-engine:'+JUNIT_VERSION
    
-   
   // testImplementation 'com.google.truth:truth:'+TRUTH_VERSION
   //  testImplementation 'com.google.truth.extensions:truth-java8-extension:'+TRUTH_VERSION  
 }
@@ -38,6 +37,10 @@ targetCompatibility = JavaVersion.VERSION_1_8
 test {
   useJUnitPlatform()
   systemProperty 'java.util.logging.config.file','../test-logging.properties'
+  systemProperty 'org.slf4j.simpleLogger.defaultLogLevel', 'debug'
+  systemProperty 'org.slf4j.simpleLogger.showLogName', 'false'
+  systemProperty 'org.slf4j.simpleLogger.showShortLogName', 'true'
+  systemProperty 'org.slf4j.simpleLogger.showThreadName', 'false'
 }
 
 jacocoTestReport {

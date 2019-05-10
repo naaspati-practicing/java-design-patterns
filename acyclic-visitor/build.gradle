@@ -4,5 +4,9 @@ plugins {
     id 'application'
 }
 
+mainClassName = 'App'
+ext.impls = ['org.slf4j:slf4j-simple:1.8.0-beta4']
 
 apply from: '../build.gradle'
+
+

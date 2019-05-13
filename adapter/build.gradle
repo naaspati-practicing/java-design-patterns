@@ -5,7 +5,3 @@ plugins {
 }
 
 apply from: '../build.gradle'
-
-
-mainClassName = 'Main'
-

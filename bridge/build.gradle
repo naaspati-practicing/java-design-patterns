@@ -4,8 +4,7 @@ plugins {
     id 'application'
 }
 
-apply from: '../build.gradle'
 
+apply from: '../build_spock.gradle'
 
 mainClassName = 'Main'
-

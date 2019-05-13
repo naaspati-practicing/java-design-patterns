@@ -1,10 +1,11 @@
 plugins {
     id 'jacoco'
     id 'java'
+    id 'groovy'
     id 'application'
 }
 
-apply from: '../build.gradle'
+apply from: '../build_spock.gradle'
 
 
 mainClassName = 'Main'

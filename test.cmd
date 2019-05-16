@@ -10,10 +10,12 @@ if [%1]==[] (
 
 if [%1]==[index] (
   explorer "build\reports\tests\test\index.html"
+  if exist "build\spock-reports\index.html" (
+    explorer "build\spock-reports\index.html"
+  )
   if exist "build\jacoco.html\index.html" (
     explorer "build\jacoco.html\index.html"
   )
-  
   goto:eof
 )
 if [%1]==[report] (

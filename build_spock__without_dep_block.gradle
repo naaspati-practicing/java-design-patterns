@@ -10,18 +10,6 @@ repositories {
   
 **/
 
-
-dependencies {
-  implementation 'org.slf4j:slf4j-api:1.8.0-beta4'
-  implementation  'org.slf4j:slf4j-simple:1.8.0-beta4'
-  
-  testImplementation "org.spockframework:spock-core:1.1-groovy-2.4-rc-2"
-  testImplementation 'cglib:cglib-nodep:3.2.12'
-  testCompile( 'com.athaydes:spock-reports:1.6.2' ) {
-        transitive = false // this avoids affecting your version of Groovy/Spock
-  }
-}
-
 sourceCompatibility = JavaVersion.VERSION_1_8 
 targetCompatibility = JavaVersion.VERSION_1_8
 

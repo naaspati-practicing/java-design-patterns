@@ -1,5 +1,3 @@
-Proxy
-Chain of Resp
 Command
 Interpreter
 Iterator

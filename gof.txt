@@ -1,6 +1,3 @@
-Command
-Interpreter
-Iterator
 Mediator
 Memento
 Observer
